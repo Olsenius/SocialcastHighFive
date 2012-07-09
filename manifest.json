@@ -1,0 +1,16 @@
+{
+  "name": "Socialcast high five!",
+  "version": "0.0.0.5",
+  "manifest_version": 2,
+  "description": "Socialcast high five!",
+  "permissions": [
+    "https://*.socialcast.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.socialcast.com/*"],
+      "js": ["jquery-1.7.2.min.js", "highFive.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
