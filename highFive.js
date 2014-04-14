@@ -4,7 +4,7 @@ function highFive(){
 	});
 
 	$(document).find('a.like_toggle.liked').each( function (index, el){ 
-	    $(el).text('Low five');
+	    $(el).text('Too slow');
 	});
 
 
@@ -34,7 +34,7 @@ function highFive(){
 
 	if (window.location.pathname === '/notifications'){
 		$(document).find('a.unlike.sc-lightest-text').each( function (index, el){ 
-		    $(el).text('Low five');
+		    $(el).text('Too slow');
 		});
 
 		$(document).find('span.you_like_this').each( function (index, el){ 
